@@ -1,0 +1,140 @@
+/*digimon game*/
+.paneBlue {
+    -fx-background-color: cornflowerblue;
+    -fx-border-width: 3px;
+    -fx-border-color: black;
+    /*top right bottom left*/
+}
+.paneRed {
+    -fx-background-color: #f81414;
+    -fx-border-width: 3px;
+    -fx-border-color: black;
+}
+.panePurple {
+    -fx-background-color: blueviolet;
+    -fx-border-width: 3px;
+    -fx-border-color: black;
+}
+.paneGreen {
+    -fx-background-color: greenyellow;
+    -fx-border-width: 3px;
+    -fx-border-color: black;
+}
+.anchorPane{
+    -fx-background-color: #7d7a7a;
+    -fx-border-width: 3px;
+    -fx-border-color: black;
+}
+.paneInterface {
+    -fx-background-color: #7d7a7a;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+.buttonTransparent{
+    -fx-background-color: transparent;
+}
+.buttonTransparent:hover{
+    -fx-background-color: black;
+    -fx-opacity: 0.2;
+}
+.paneDigimon {
+    -fx-background-image: url("../image/gameBackground.jpg");
+    -fx-opacity: 0.4;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-style: solid none none solid;
+}
+.paneSettings {
+    -fx-background-image: url("../image/gameBackground.jpg");
+}
+.paneInterfaceButton {
+    -fx-background-color: #023d02;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-font-family: Calibri;
+}
+.textTitle {
+    -fx-font-size: 30px;
+}
+.textContent{
+    -fx-font-size: 20px;
+    -fx-text-alignment: center;
+    -fx-font-family: Impact, Charcoal, sans-serif;
+}
+.interfaceActionIcon{
+    -fx-border-width: 10px;
+    -fx-border-color: black;
+    -fx-border-style: solid;
+}
+.actionLabel{
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-text-fill: white;
+    -fx-font-family: Impact, Charcoal, sans-serif;
+    -fx-font-size: 18px;
+    -fx-padding: 3px;
+}
+.menuButtonBar {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+.menuButton {
+    -fx-background-color: linear-gradient(to bottom, #79bbff 5%, #0c7ae8 100%), #79bbff;
+    -fx-background-radius: 5px;
+    -fx-border-color: #337bc4;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-text-fill: black;
+    -fx-font-family: Arial;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 15px 20px;
+    -fx-text-decoration: none;
+}
+.menuButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #0c7ae8 5%, #79bbff 100%);
+    -fx-background-radius: 5px;
+    -fx-border-color: #337bc4;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+.menuButton:pressed {
+    -fx-background-color: linear-gradient(to bottom, #0c7ae8 5%, #79bbff 100%);
+    -fx-background-radius: 5px;
+    -fx-border-color: #337bc4;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+.textHeading{
+    -fx-font-family: Impact, Charcoal, sans-serif;
+    -fx-font-size: 30px;
+}
+.retroText {
+    -fx-font-family: "Brush Script MT", cursive;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 0.5px;
+}
+.digimonText{
+    -fx-font-family: "Brush Script MT", cursive;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 0.5px;
+}
+.gameInterfaceText{
+    -fx-font-family: Impact, Charcoal, sans-serif;
+    -fx-font-size: 20px;
+}
+.gameInterfaceTextSmall{
+    -fx-font-family: Impact, Charcoal, sans-serif;
+    -fx-font-size: 15px;
+}
+
+
+
+
+
+

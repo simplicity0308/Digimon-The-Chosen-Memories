@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="560.0" prefWidth="740.0" stylesheets="@Theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="digimonGame.view.GameMenuController">
+   <children>
+      <ImageView fitHeight="587.0" fitWidth="740.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/gameTitle.png" />
+         </image>
+      </ImageView>
+      <ButtonBar layoutX="209.0" layoutY="484.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="76.0" prefWidth="517.0">
+        <buttons>
+          <Button alignment="CENTER" contentDisplay="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#handleGameBegin" prefWidth="195.0" styleClass="menuButton" stylesheets="@Theme.css" text="Begin" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#handleSettings" styleClass="menuButton" text="Settings" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#handleInstructions" prefHeight="31.0" styleClass="menuButton" text="Instructions" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#handleExit" styleClass="menuButton" stylesheets="@Theme.css" text="Quit" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
